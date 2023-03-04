@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(205, 240, 240);
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    background-color: rgb(104, 191, 111);
+}
+.meme-generator {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label,
+input,
+button {
+    margin-bottom: 10px;
+    background-color: rgb(43, 214, 226);
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.meme-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+.top-text-input{
+    font-size: 50px;
+}
